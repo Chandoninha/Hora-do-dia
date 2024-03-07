@@ -9,24 +9,8 @@
         position: absolute;
         top:88%;
         left: 6rem;
-    }
-    
-    section{
-        background: white;
-        border-radius: 10px;
-        max-width: 36rem;
-        padding: 0.75rem;
-        width: 80%;
-        margin: auto;
-        color: black;
-        box-shadow: 5px 5px 10px #080080;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+    }   
 }
-
 @media(min-width: 390px){
     header{
         top: 5%;
@@ -39,23 +23,7 @@
         top:88%;
         left: 7.2rem;
     }
-    
-    section{
-        background: white;
-        border-radius: 10px;
-        max-width: 36rem;
-        padding: 0.75rem;
-        width: 80%;
-        margin: auto;
-        color: black;
-        box-shadow: 5px 5px 10px #080080;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
 }
-
 @media(min-width: 428px){
     header{
         top: 5%;
@@ -69,19 +37,18 @@
         left: 8.6rem;
     }
     
-    section{
-        background: white;
-        border-radius: 10px;
-        max-width: 36rem;
-        padding: 0.75rem;
-        width: 80%;
-        margin: auto;
-        color: black;
-        box-shadow: 5px 5px 10px #080080;
+}
+@media(min-width: 600px){
+    header{
+        top: 10%;
+        left: 12rem;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    }
+    footer{
+        text-align: center;
+        position: absolute;
+        top:88%;
+        left: 14rem;
     }
 }
 
@@ -98,22 +65,7 @@
         left: 20.5rem;
     }
     
-    section{
-        background: white;
-        border-radius: 10px;
-        max-width: 36rem;
-        padding: 0.75rem;
-        width: 80%;
-        margin: auto;
-        color: black;
-        box-shadow: 5px 5px 10px #080080;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
 }
-
 @media(min-width: 1280px){
     header{
         top: 5%;
@@ -127,50 +79,10 @@
         left: 35.3rem;
     }
     
-    section{
-        background: white;
-        border-radius: 10px;
-        max-width: 36rem;
-        padding: 0.75rem;
-        width: 80%;
-        margin: auto;
-        color: black;
-        box-shadow: 5px 5px 10px #080080;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
 }
 
-@media(min-width: 1366px){
-    header{
-        top: 5%;
-        left: 36rem;
-        position: absolute;
-    }
+@media (min-width: 1920px){
 
-    footer{
-        text-align: center;
-        position: absolute;
-        top:88%;
-        left: 38.5rem;
-    }
-}
-
-@media(min-width: 1920px){
-    header{
-        top: 5%;
-        left: 52.7rem;
-        position: absolute;
-    }
-
-    footer{
-        text-align: center;
-        position: absolute;
-        top:88%;
-        left: 55.7rem;
-    }
 }
 
 body{
@@ -208,3 +120,4 @@ section div{
     padding: 0.60rem;
     text-align: center;
 }
+
